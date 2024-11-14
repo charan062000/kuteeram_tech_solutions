@@ -2,7 +2,7 @@ import React from "react";
 
 const FixedIcon = () => {
   // Your phone number (replace with your actual phone number)
-  const phoneNumber = "8143923984";
+  const phoneNumber = "8523811173";
   // The predefined text message (ensure it's URL encoded)
   const message = encodeURIComponent("Hello, I have a question!");
 
