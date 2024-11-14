@@ -1,0 +1,39 @@
+/* Add this to your global CSS file (e.g., styles.css) or in Tailwind's config file under 'extend' */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.text {
+  transition: opacity 0.5s ease; /* Set transition duration to match JavaScript delay */
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  scale: 0.5;
+  padding: 10px;
+}
+/* Hides the spinner arrows in number input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+#hoverAnimation:hover {
+  scale: 1.05;
+}

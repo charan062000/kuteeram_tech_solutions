@@ -1,0 +1,24 @@
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Apply the colorful animation */
+.loading-screen {
+  background: linear-gradient(
+    45deg,
+    #ff6347,
+    #6a5acd,
+    #32cd32,
+    #ff1493
+  ); /* Colorful gradient */
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite; /* Infinite animation */
+}
