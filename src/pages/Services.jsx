@@ -7,7 +7,7 @@ import { GrAnnounce } from "react-icons/gr";
 import { TbTie } from "react-icons/tb";
 import WebDevelopment from "../components/Service/WebDevelopment/WebDevelopment";
 import WebHosting from "../components/Service/WebHosting/WebHosting";
-import DigitalMarketing from "../components/Service/DigitalMarketing";
+import DigitalMarketing from "../components/Service/DigitalMarketing/DigitalMarketing";
 import BusinessConsultancy from "../components/Service/BusinessConsultancy";
 import ScrollToTop from "../components/Common/ScrollToTop";
 import { AnimatePresence, motion } from "framer-motion";

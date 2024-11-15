@@ -10,6 +10,8 @@ import {
   FaDollarSign,
   FaSearch,
 } from "react-icons/fa";
+import { RiDatabaseLine } from "react-icons/ri";
+import { GrContactInfo } from "react-icons/gr";
 
 const WebHosting = () => {
   const features = [
@@ -79,7 +81,8 @@ const WebHosting = () => {
             Your Website’s Success Starts with Our Hosting.
           </p>
           <p className="mt-4 font-poppins">
-            In today’s digital world, a strong online presence is essential. At{" "}
+            In today’s digital world, a strong online presence is essential. At
+            logo{" "}
             <span>
               <img
                 src="/onlyIcon.png"
@@ -87,11 +90,10 @@ const WebHosting = () => {
                 className="w-3.5 inline-block ml-2 mr-1 "
               />
             </span>
-            <strong> Esha Technology</strong>, we understand that your website
-            is more than just a webpage – it’s the face of your business, a tool
-            for growth, and a platform to engage with your audience. That's why
-            we provide web hosting solutions that are tailored to ensure your
-            site performs at its best every day.
+            <strong> Esha Technology</strong>, , we know your website is more
+            than a page—it's your brand’s face and a growth tool. That's why our
+            web hosting solutions are designed to keep your site performing at
+            its best every day.
           </p>
         </div>
 
@@ -105,7 +107,75 @@ const WebHosting = () => {
       </div>
 
       <div className="mt-20">
-        <h1 className="font-medium font-poppins lg:text-2xl text-xl">
+        <h1 className="font-medium font-poppins lg:text-3xl text-xl flex justify-center items-center w-fit gap-2">
+          <RiDatabaseLine />
+          Hosting Platforms
+        </h1>
+
+        <div className="overflow-hidden relative mt-10 ">
+          <span className="whiteShadow left"></span>
+          <span className="whiteShadow right"></span>
+
+          <div className="flex animate-move-left gap-16 relative z-0">
+            <img src="/HostingLogo/awsLogo.png" alt="" className="w-72 h-fit" />
+            <img
+              src="/HostingLogo/digitaloceanLogo.svg"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/GoDaddy_logo.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/Google_Cloud_logo.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/Hostinger_logo_purple.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/Vercel_logo_black.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            {/* Duplicate images to create continuous scroll effect */}
+            <img src="/HostingLogo/awsLogo.png" alt="" className="w-72 h-fit" />
+            <img
+              src="/HostingLogo/digitaloceanLogo.svg"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/GoDaddy_logo.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/Google_Cloud_logo.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/Hostinger_logo_purple.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+            <img
+              src="/HostingLogo/Vercel_logo_black.svg.png"
+              alt=""
+              className="w-72 h-fit"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-20">
+        <h1 className="font-medium font-poppins lg:text-3xl text-xl">
           Why Choose Esha Technology?
         </h1>
       </div>
@@ -120,6 +190,25 @@ const WebHosting = () => {
             color={feature.color}
           />
         ))}
+      </div>
+
+      <div className="mb-20">
+        <div className="mt-20">
+          <h1 className="font-extrabold  lg:text-3xl text-xl ">
+            Ready to Launch Your Website with Reliable Hosting?
+          </h1>
+          <h1 className="font-medium font-poppins lg:text-2xl text-xl mt-5">
+            Contact us today to discover our fast, secure, and reliable web
+            hosting solutions, tailored to meet the needs of your business or
+            personal project.
+          </h1>
+        </div>
+        <Link to="/contact">
+          <button className="btn btn-primary text-base mt-10">
+            <GrContactInfo className="text-3xl" />
+            Contact us to Get Started
+          </button>
+        </Link>
       </div>
     </>
   );

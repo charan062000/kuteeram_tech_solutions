@@ -37,3 +37,35 @@ input[type="number"] {
 #hoverAnimation:hover {
   scale: 1.05;
 }
+
+/* scroll */
+@keyframes moveLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-move-left {
+  animation: moveLeft 20s linear infinite;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+.whiteShadow {
+  border: 1px solid;
+  height: 100%;
+  width: 50px;
+  position: absolute;
+  box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+  z-index: 5;
+}
+.whiteShadow.left {
+  left: 0;
+}
+.whiteShadow.right {
+  right: 0;
+}
