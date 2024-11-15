@@ -21,7 +21,7 @@ const HeroSection = () => {
         setCurrentTextIndex((prevIndex) => (prevIndex + 1) % texts.length);
         setFadeClass("fade-in");
       }, 500);
-    }, 1000);
+    }, 2000);
 
     return () => clearInterval(intervalId);
   }, []);

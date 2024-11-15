@@ -115,39 +115,38 @@ function Navbar() {
                 <button onClick={toggleDropdown} className="w-full text-left">
                   Services
                 </button>
-                {isOpenDes && (
-                  <ul className="p-2">
-                    <li>
-                      <Link
-                        to="services/web-development"
-                        onClick={handleLinkClick}
-                      >
-                        Web Development
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="services/web-hosting" onClick={handleLinkClick}>
-                        Web Hosting
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="services/digital-marketing"
-                        onClick={handleLinkClick}
-                      >
-                        Digital Marketing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="services/business-consultancy"
-                        onClick={handleLinkClick}
-                      >
-                        Business Consultancy
-                      </Link>
-                    </li>
-                  </ul>
-                )}
+
+                <ul className="p-2">
+                  <li>
+                    <Link
+                      to="services/web-development"
+                      onClick={handleLinkClick}
+                    >
+                      Web Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="services/web-hosting" onClick={handleLinkClick}>
+                      Web Hosting
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="services/digital-marketing"
+                      onClick={handleLinkClick}
+                    >
+                      Digital Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="services/business-consultancy"
+                      onClick={handleLinkClick}
+                    >
+                      Business Consultancy
+                    </Link>
+                  </li>
+                </ul>
               </li>
 
               <li>
@@ -245,7 +244,7 @@ function Navbar() {
           <li className="relative">
             <NavLink
               to="/contact"
-              className="text-gray-600 group p-2 bg-indigo-500 text-white rounded-xl"
+              className="text-gray-600 group py-2 px-4 bg-indigo-500 text-white rounded-lg"
             >
               Contact Us
             </NavLink>
