@@ -2,8 +2,8 @@ import React from "react";
 
 const Founder = () => {
   return (
-    <section className="m-10  p-20 flex gap-28 w-fit mx-auto flex-wrap">
-      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4">
+    <section className="m-10  p-20 flex gap-28 w-fit mx-auto flex-wrap justify-center items-center">
+      <div className="flex flex-col justify-center items-center  w-fit gap-4 hover:scale-110 duration-300">
         <div className=" bg-indigo-300 w-56 rounded-full  h-56 relative ">
           <img
             src="/CoFunder.png"
@@ -22,7 +22,7 @@ const Founder = () => {
         </div>
       </div>
 
-      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4">
+      <div className=" flex flex-col justify-center items-center  w-fit gap-4 hover:scale-110 duration-300">
         <div className=" bg-sky-300 w-56 rounded-full  h-56 relative ">
           <img
             src="/CoFounder.png"

@@ -3,7 +3,7 @@ import React from "react";
 const Experts = () => {
   return (
     <section className="  p-20 flex gap-28 w-fit mx-auto flex-wrap">
-      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4">
+      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4 hover:scale-110 duration-300">
         <div className=" bg-slate-300 w-44 rounded-full  h-44 relative ">
           <img
             src="/talha.png"
@@ -22,7 +22,7 @@ const Experts = () => {
         </div>
       </div>
 
-      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4">
+      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4 hover:scale-110 duration-300">
         <div className=" bg-red-300 w-44 rounded-full  h-44 relative ">
           <img
             src="/sai.png"
@@ -35,13 +35,13 @@ const Experts = () => {
           <h1 className="text-4xl font-poppins font-bold text-slate-700  h-fit   ">
             Sai Charan
           </h1>
-          <p className="text-xl px-5 py-1 rounded-full bg-red-100 font-bold">
+          <p className="text-xl px-5 py-1 rounded-full bg-red-100 font-bold text-center">
             Front end Developer
           </p>
         </div>
       </div>
 
-      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4">
+      <div className="founderAndCo flex flex-col justify-center items-center  w-fit gap-4 hover:scale-110 duration-300">
         <div className=" bg-indigo-200 w-44 rounded-full  h-44 relative ">
           <img
             src="/taha.png"
@@ -51,7 +51,7 @@ const Experts = () => {
           />
         </div>
         <div className="flex flex-col justify-center items-center w-fit gap-4">
-          <h1 className="text-4xl font-poppins font-bold text-slate-700  h-fit   ">
+          <h1 className="text-4xl font-poppins font-bold text-slate-700  h-fit  text-center ">
             George Tiller
           </h1>
           <p className="text-xl px-5 py-1 rounded-full bg-indigo-200 font-bold text-center">
