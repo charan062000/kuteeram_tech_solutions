@@ -5,6 +5,7 @@ import { GrContactInfo } from "react-icons/gr";
 import ScrollToTop from "../components/Common/ScrollToTop";
 import AboutSection from "../components/About/AboutSection";
 import Founder from "../components/About/Founder";
+import Experts from "../components/About/Experts";
 
 const About = () => {
   return (
@@ -78,6 +79,9 @@ const About = () => {
         </div>
       </section> */}
       <Founder />
+      <Heading heading="Meet Our Experets" color="bg-slate-200" />
+
+      <Experts />
       <section className="mb-20 px-10">
         <div className="mt-20">
           <h1 className="font-extrabold  lg:text-3xl text-xl ">Get in Touch</h1>
