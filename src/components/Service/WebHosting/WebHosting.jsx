@@ -117,57 +117,57 @@ const WebHosting = () => {
           <span className="whiteShadow right"></span>
 
           <div className="flex animate-move-left gap-16 relative z-0">
-            <img src="/HostingLogo/awsLogo.png" alt="" className="w-72 h-fit" />
+            <img src="/HostingLogo/awsLogo.png" alt="aws logo" className="w-72 h-fit" />
             <img
               src="/HostingLogo/digitaloceanLogo.svg"
-              alt=""
+              alt="digital logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/GoDaddy_logo.svg.png"
-              alt=""
+              alt="godaddy logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/Google_Cloud_logo.svg.png"
-              alt=""
+              alt="google cloude logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/Hostinger_logo_purple.svg.png"
-              alt=""
+              alt="hostinger logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/Vercel_logo_black.svg.png"
-              alt=""
+              alt="vercel logo"
               className="w-72 h-fit"
             />
             {/* Duplicate images to create continuous scroll effect */}
-            <img src="/HostingLogo/awsLogo.png" alt="" className="w-72 h-fit" />
+            <img src="/HostingLogo/awsLogo.png" alt="aws logo" className="w-72 h-fit" />
             <img
               src="/HostingLogo/digitaloceanLogo.svg"
-              alt=""
+              alt="digital logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/GoDaddy_logo.svg.png"
-              alt=""
+              alt="godaddy logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/Google_Cloud_logo.svg.png"
-              alt=""
+              alt="google cloude logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/Hostinger_logo_purple.svg.png"
-              alt=""
+              alt="hostinger logo"
               className="w-72 h-fit"
             />
             <img
               src="/HostingLogo/Vercel_logo_black.svg.png"
-              alt=""
+              alt="vercel logo"
               className="w-72 h-fit"
             />
           </div>

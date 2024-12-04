@@ -7,7 +7,7 @@ const Experts = () => {
         <div className=" bg-slate-300 w-44 rounded-full  h-44 relative ">
           <img
             src="/talha.png"
-            alt=""
+            alt="talha image"
             width={275}
             className="absolute bottom-0 rounded-bl-[120px] rounded-br-[120px] "
           />
@@ -17,7 +17,7 @@ const Experts = () => {
             Talha
           </h1>
           <p className="text-xl px-5 py-1 rounded-full bg-slate-200 font-bold text-center">
-            Front end Developer / <br /> UI UX Design
+            Front end Developer | <br /> UI UX Design
           </p>
         </div>
       </div>
@@ -26,7 +26,7 @@ const Experts = () => {
         <div className=" bg-red-300 w-44 rounded-full  h-44 relative ">
           <img
             src="/sai.png"
-            alt=""
+            alt="sai image"
             width={275}
             className="absolute bottom-0 rounded-bl-[120px] rounded-br-[120px] "
           />
@@ -45,7 +45,7 @@ const Experts = () => {
         <div className=" bg-indigo-200 w-44 rounded-full  h-44 relative ">
           <img
             src="/taha.png"
-            alt=""
+            alt="George Image"
             width={275}
             className="absolute bottom-0 rounded-bl-[120px] rounded-br-[120px] "
           />
