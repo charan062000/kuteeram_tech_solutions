@@ -71,7 +71,7 @@ function Navbar() {
     >
       <div className="w-full flex justify-between">
         <Link to="/" className="w-64 ml-5 cursor-pointer">
-          <img src="/eshaLogo.png" alt="Logo" />
+          <img src="/kuteeramLogo.png" alt="Logo" />
         </Link>
 
         {/* Burger menu button */}

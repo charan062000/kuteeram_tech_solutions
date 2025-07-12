@@ -91,7 +91,7 @@ const BusinessConsultancy = () => {
                 className="w-3.5 inline-block ml-2 mr-1 "
               />
             </span>
-            <strong> Esha Technology</strong>, we don’t just offer
+            <strong> Kuteeram Tech Solutions</strong>, we don’t just offer
             consultancy—we drive transformation. Our expert team delivers
             tailored solutions that boost growth, efficiency, and profitability.
             Whether you're a startup or an established business, we provide the
@@ -111,7 +111,7 @@ const BusinessConsultancy = () => {
 
       <div className="mt-20">
         <h1 className="font-medium font-poppins lg:text-3xl text-xl">
-          Why Choose Esha Technology?
+          Why Choose Kuteeram Tech Solutions?
         </h1>
       </div>
 

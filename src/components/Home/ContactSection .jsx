@@ -80,59 +80,62 @@ const ContactSection = () => {
     <>
       <Heading heading="Contact Us" color="bg-red-100" />
 
-      <div class="grid sm:grid-cols-2 items-start gap-16 px-10  mx-auto my-20  bg-white font-poppins mt-20">
+      <div className="grid sm:grid-cols-2 items-start gap-16 px-10  mx-auto my-20  bg-white font-poppins mt-20">
         <div>
-          <h1 class="text-gray-800 text-3xl font-bold">Let's Talk</h1>
-          <p class="text-xl text-gray-500 mt-4">
+          <h1 className="text-gray-800 text-3xl font-bold">Let`s Talk</h1>
+          <p className="text-xl text-gray-500 mt-4">
             Have some big idea or brand to develop and need help? Then reach out
-            we'd love to hear about your project and provide help.
+            we`d love to hear about your project and provide help.
           </p>
 
           <div className="flex flex-wrap gap-x-16">
-            <div class="mt-12">
-              <h2 class="text-gray-800 text-base font-bold">Email</h2>
-              <ul class="mt-4">
-                <li class="flex items-center">
-                  <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center ">
+            <div className="mt-12">
+              <h2 className="text-gray-800 text-base font-bold">Email</h2>
+              <ul className="mt-4">
+                <li className="flex items-center">
+                  <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center ">
                     <HiOutlineMailOpen className="text-indigo-700 text-2xl " />
                   </div>
                   <a
-                    href="mailto:eshatechnologyprvtltd@gmail.com"
-                    class="text-sky-600 text-sm ml-4"
+                    href="mailto:kuteeramtechsolutions@gmail.com"
+                    className="text-sky-600 text-sm ml-4"
                   >
-                    <small class="block">Mail</small>
+                    <small className="block">Mail</small>
                     <p className="text-base -mt-2">
-                      eshatechnologyprvtltd@gmail.com
+                      Kuteeramtechsolutions@gmail.com
                     </p>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="mt-12">
-              <h2 class="text-gray-800 text-base font-bold">Mobile</h2>
-              <ul class="mt-4">
-                <li class="flex items-center">
-                  <div class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center ">
+            <div className="mt-12">
+              <h2 className="text-gray-800 text-base font-bold">Mobile</h2>
+              <ul className="mt-4">
+                <li className="flex items-center">
+                  <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center ">
                     <HiOutlineMailOpen className="text-indigo-700 text-2xl " />
                   </div>
-                  <a href="tel:8523811173" class="text-sky-600 text-sm ml-4">
-                    <small class="block">Call</small>
-                    <p className="text-base -mt-2">+91 8523811173</p>
+                  <a
+                    href="tel:8523811173"
+                    className="text-sky-600 text-sm ml-4"
+                  >
+                    <small className="block">Call</small>
+                    <p className="text-base -mt-2">+91 93816 87401</p>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="mt-12">
-              <h2 class="text-gray-800 text-base font-bold">Socials</h2>
+            <div className="mt-12">
+              <h2 className="text-gray-800 text-base font-bold">Socials</h2>
 
-              <ul class="flex mt-4 space-x-4">
-                <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0  cursor-pointer">
+              <ul className="flex mt-4 space-x-4">
+                <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0  cursor-pointer">
                   <FaFacebookF className="text-indigo-700 text-2xl hover:text-xl cursor-pointer " />
                 </li>
-                <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer">
+                <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer">
                   <FaInstagram className="text-indigo-700 text-2xl hover:text-xl  " />
                 </li>
-                <li class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer">
+                <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0 cursor-pointer">
                   <FaWhatsapp className="text-indigo-700 text-2xl hover:text-xl  " />
                 </li>
               </ul>

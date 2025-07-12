@@ -42,18 +42,18 @@ const Footer = () => {
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
         </nav>
-
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.3417793316685!2d78.46851297516618!3d17.44334818345347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI2JzM2LjEiTiA3OMKwMjgnMTUuOSJF!5e0!3m2!1sen!2sin!4v1731576907958!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5096152457754!2d78.39883677462802!3d17.43530600142404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9113fa7c5fe9%3A0x6833c39545d94623!2sRegus!5e0!3m2!1sen!2sin!4v1752304630464!5m2!1sen!2sin"
           allowfullscreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
           className="lg:w-96 rounded shadow-2xl -mr-40 md:w-full md:mr-0"
         ></iframe>
+        
       </section>
       <section className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4 bg-gray-200">
         <aside className="grid-flow-col items-center">
-          <img src="eshaLogo.png" className="w-64" alt="" />
+          <img src="kuteeramLogo.png" className="w-64" alt="" />
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4">
@@ -66,8 +66,8 @@ const Footer = () => {
       <section className="footer footer-center bg-base-300 text-base-content p-4 bg-gray-300">
         <aside>
           <p>
-            Copyright © {new Date().getFullYear()} - All right reserved by Esha
-            Technology
+            Copyright © {new Date().getFullYear()} - All right reserved by
+            Kuteeram Tech Solutions
           </p>
         </aside>
       </section>

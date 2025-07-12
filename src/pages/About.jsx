@@ -39,7 +39,7 @@ const About = () => {
                     Meet Our Company
                   </h2>
                   <p class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                    At Esha Technology, we believe in the power of collaboration
+                    At Kuteeram Tech Solutions, we believe in the power of collaboration
                     and mutual growth. Every project is a collective effort
                     where each team member’s contribution shapes our success.
                     Together, we don’t just build solutions; we create lasting

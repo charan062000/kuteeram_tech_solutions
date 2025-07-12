@@ -98,7 +98,7 @@ const WebDevelopment = () => {
                 className="w-3.5 inline-block ml-2 mr-1 "
               />
             </span>
-            <strong>Esha Technology</strong>, we specialize in building
+            <strong>Kuteeram Tech Solutions</strong>, we specialize in building
             high-quality, modern websites tailored to your business goals. We
             believe that your website should do more than just look good – it
             should function flawlessly, engage visitors, and drive results.

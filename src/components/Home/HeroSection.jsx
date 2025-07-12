@@ -35,7 +35,7 @@ const HeroSection = () => {
     >
       <div className="flex flex-wrap  xl1:ml-56 xl2:ml-40 xl3:ml-16 lg:ml-14">
         <h1 className="text-2xl md:text-5xl lg:text-5xl font-mont font-extrabold text-sky-500 text-center  xl4:w-fit w-full ">
-          ESHA TECHNOLOGY |
+          KUTEERAM TECH SOLUTIONS |
         </h1>
         <h1 className="text-2xl md:text-5xl lg:text-5xl font-poppins font-semibold text-gray-800  ml-5 xl4:w-fit  w-full text-center ">
           <div className={`text ${fadeClass} `}>{texts[currentTextIndex]}</div>
@@ -43,7 +43,7 @@ const HeroSection = () => {
         </h1>
       </div>
       <p className="text-sm sm:text-base md:text-lg text-center  mt-3 md:mt-5 w-11/12 md:w-1/2 font-poppins mx-auto">
-        Welcome to Esha Technology! We're dedicated experts, helping businesses
+        Welcome to KUTEERAM TECH SOLUTIONS! We`re dedicated experts, helping businesses
         thrive online with customized digital solutions that drive growth and
         enhance your presence.
       </p>

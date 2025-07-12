@@ -18,14 +18,14 @@ const WebHosting = () => {
     {
       title: "Lightning-Fast Speed",
       description:
-        "Our servers are optimized for high-speed performance. A fast-loading website not only improves user experience but also boosts your search engine rankings. With Esha Technology, your site visitors won’t have to wait – they’ll get instant access to your content, products, and features.",
+        "Our servers are optimized for high-speed performance. A fast-loading website not only improves user experience but also boosts your search engine rankings. With Kuteeram Tech Solutions, your site visitors won’t have to wait – they’ll get instant access to your content, products, and features.",
       icon: <FaBolt />,
       color: "bg-red-100",
     },
     {
       title: "99.9% Uptime Guarantee",
       description:
-        "We know that downtime is bad for business. Our hosting infrastructure is designed to offer unbeatable reliability, so your website is available to your visitors around the clock. With Esha Technology, you can say goodbye to missed opportunities due to server outages.",
+        "We know that downtime is bad for business. Our hosting infrastructure is designed to offer unbeatable reliability, so your website is available to your visitors around the clock. With Kuteeram Tech Solutions, you can say goodbye to missed opportunities due to server outages.",
       icon: <FaClock />,
       color: "bg-green-100",
     },
@@ -39,14 +39,14 @@ const WebHosting = () => {
     {
       title: "Scalable Solutions",
       description:
-        "Whether you're just starting out or have a well-established business, we offer scalable hosting plans that can grow with you. Upgrade easily to a larger plan as your site traffic increases without any hassle. At Esha Technology, you only pay for what you need.",
+        "Whether you're just starting out or have a well-established business, we offer scalable hosting plans that can grow with you. Upgrade easily to a larger plan as your site traffic increases without any hassle. At Kuteeram Tech Solutions, you only pay for what you need.",
       icon: <FaChartLine />,
       color: "bg-yellow-100",
     },
     {
       title: "Affordable Pricing with No Hidden Fees",
       description:
-        "We believe in transparent, budget-friendly pricing. Esha Technology offers competitive plans to meet every business's needs without hidden costs. You get full value for every penny you spend with us.",
+        "We believe in transparent, budget-friendly pricing. Kuteeram Tech Solutions offers competitive plans to meet every business's needs without hidden costs. You get full value for every penny you spend with us.",
       icon: <FaDollarSign />,
       color: "bg-teal-100",
     },
@@ -90,10 +90,10 @@ const WebHosting = () => {
                 className="w-3.5 inline-block ml-2 mr-1 "
               />
             </span>
-            <strong> Esha Technology</strong>, , we know your website is more
-            than a page—it's your brand’s face and a growth tool. That's why our
-            web hosting solutions are designed to keep your site performing at
-            its best every day.
+            <strong> Kuteeram Tech Solutions</strong>, , we know your website is
+            more than a page—it's your brand’s face and a growth tool. That's
+            why our web hosting solutions are designed to keep your site
+            performing at its best every day.
           </p>
         </div>
 
@@ -117,7 +117,11 @@ const WebHosting = () => {
           <span className="whiteShadow right"></span>
 
           <div className="flex animate-move-left gap-16 relative z-0">
-            <img src="/HostingLogo/awsLogo.png" alt="aws logo" className="w-72 h-fit" />
+            <img
+              src="/HostingLogo/awsLogo.png"
+              alt="aws logo"
+              className="w-72 h-fit"
+            />
             <img
               src="/HostingLogo/digitaloceanLogo.svg"
               alt="digital logo"
@@ -144,7 +148,11 @@ const WebHosting = () => {
               className="w-72 h-fit"
             />
             {/* Duplicate images to create continuous scroll effect */}
-            <img src="/HostingLogo/awsLogo.png" alt="aws logo" className="w-72 h-fit" />
+            <img
+              src="/HostingLogo/awsLogo.png"
+              alt="aws logo"
+              className="w-72 h-fit"
+            />
             <img
               src="/HostingLogo/digitaloceanLogo.svg"
               alt="digital logo"
@@ -176,7 +184,7 @@ const WebHosting = () => {
 
       <div className="mt-20">
         <h1 className="font-medium font-poppins lg:text-3xl text-xl">
-          Why Choose Esha Technology?
+          Why Choose Kuteeram Tech Solutions?
         </h1>
       </div>
 

@@ -99,7 +99,7 @@ const DigitalMarketing = () => {
       <div className=" flex flex-col lg:flex-row gap-5 items-center mt-3">
         <div className="lg:w-1/2">
           <p className="text-xl font-semibold font-poppins">
-            Boost Your Business with Esha Technology's Digital Marketing
+            Boost Your Business with Kuteeram Tech Solution's Digital Marketing
             Services!
           </p>
           <p className="mt-4 font-poppins">
@@ -111,7 +111,7 @@ const DigitalMarketing = () => {
                 className="w-3.5 inline-block ml-2 mr-1 "
               />
             </span>
-            <strong> Esha Technology</strong>, we understand that every business
+            <strong> Kuteeram Tech Solutions</strong>, we understand that every business
             is unique, and so are its marketing needs. That's why we offer
             tailor-made digital marketing solutions designed to boost your
             online presence, drive traffic, and maximize conversions.
